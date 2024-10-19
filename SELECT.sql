@@ -1,0 +1,1 @@
+select cor_preferida, avg(peso) from clientes group by cor_preferida having avg(peso)> 88;
